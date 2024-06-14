@@ -1,27 +1,31 @@
 import React from 'react';
 import Lesson from './Lesson';
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.png'
+import img4 from '../assets/img4.png'
 
 class Main extends React.Component {
   render() {
     const lessonList = [
       {
         name: 'HTML',
-        image: '',
+        image: img1,
         introduction: 'Webサイトの文書構造を作るための言語',
       },
       {
         name: 'CSS',
-        image: '',
+        image: img2,
         introduction: 'Webサイトの見た目を装飾する言語',
       },
       {
         name: 'JavaScript',
-        image: '',
+        image: img3,
         introduction: 'フロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語',
       },
       {
         name: 'React',
-        image: '',
+        image: img4,
         introduction: 'HTMLのようにサイトの見た目をつくることができるJavaScriptのライブラリ',
       },
     ];

@@ -1,4 +1,5 @@
 import React from 'react';
+import footerLogo from '../assets/footer-logo.png'
 
 class Footer extends React.Component {
   render() {
@@ -6,7 +7,7 @@ class Footer extends React.Component {
       <div className='footer'>
         <div className='footer-inner'>
           <div className='footer-logo'>
-            <img src='' />
+            <img src={footerLogo} />
             <p>footer</p>
           </div>
           <ul className='footer-list'>
